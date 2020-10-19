@@ -1,0 +1,72 @@
+commit 62640926d16e7312ade921d9e5300bca795a7a3e
+Merge: 1de38d1 7898118
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:47:27 2020 +0100
+
+    There were conflicts with someotherfile.sh, kept all changes
+
+commit 789811811383b6576b314e8a13204826e0ad4e8b
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:26:00 2020 +0100
+
+    Final version of the someotherfile.sh shell script prior to merge
+
+commit 1de38d1ee20deeccabfc77e3acaacb2b88042f92
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:20:46 2020 +0100
+
+    Updated contents of zip to include coolscript
+
+commit 35fb5b495d56caa82c4aa5748c43403476e61707
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:20:22 2020 +0100
+
+    I am not sure cool script is actually any good
+
+commit 14f7a3fdc8c8789d480fea07d85576361708e409
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:19:26 2020 +0100
+
+    Added my_cool_script
+
+commit e3f9e2244e75b2827bf40efb2d8be4ebeee3adb0
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:18:59 2020 +0100
+
+    Third version of the someotherfile.sh shell script
+
+commit f576ad5cfc92e57735b288d75aa839290585beb5
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:18:34 2020 +0100
+
+    Updated version of zip
+
+commit 14fe6e7ea0fda7057e0e5d21d59f70439ddf5881
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:18:22 2020 +0100
+
+    Second version of the someotherfile.sh shell script
+
+commit b3b12a63ed991ad4a3b5afb4755bbad5477b66d6
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:17:42 2020 +0100
+
+    Added the someotherfile.sh shell script
+
+commit e54dfb79594476f0fd2618eac2b5b0fdaddd90cf
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:17:00 2020 +0100
+
+    Additional motif files, and updated zip file
+
+commit 421fd6676c21b79b5717054122fb54cc791bcdea
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:15:02 2020 +0100
+
+    CodeFiles all done and zipped
+
+commit 8525eb8b36bc0d01f8de3610bcfed4d37eb36c77
+Author: B184153-2020 <email_not_provided>
+Date:   Mon Oct 5 20:14:13 2020 +0100
+
+    First file added

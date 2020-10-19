@@ -1,0 +1,7 @@
+#!/bin/bash
+#This is the first script to start the pipeline by processing the fastq RNASeq data using FastQC  
+cp -R /localdisk/data/BPSM/Assignment1/fastq . #copy files into current directory 
+cd fastq
+fastqc *fq.gz
+ 
+
