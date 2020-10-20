@@ -1,0 +1,9 @@
+#This script is a for loop to run the bowtie2 alignment, it then pipes the SAM files produced into samtools to convert them to BAM files 
+#
+#!/bin/bash
+for i in *_1.fq.gz; do 
+    bowtie2 -x Tbb_index_file -1 $i -2 ${i/_1.fq.gz/_2.fq.gz} | samtools view -S -b -o ${i%_1.fq.gz}.bam
+done
+
+
+
