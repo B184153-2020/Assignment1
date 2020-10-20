@@ -1,0 +1,16 @@
+#This script starts alignment of sample reads to the reference genome index that has just been made, again using bowtie2
+#!/bin/bash
+cd Tbb_genome #go into directory to find index files
+cp *.bt2 .. #copy reference index to main working directory
+cd ..
+cd fastq
+cp *.fq.gz .. #copy fastq files that need to be aligned to the working directory 
+cd .. #go back to main working directory 
+#these steps have ensured that all the files needed for alignment are accessible in the same directory 
+#this was causing issues when trying to run bowtie2 before as files couldn't be accessed
+ 
+
+
+
+
+

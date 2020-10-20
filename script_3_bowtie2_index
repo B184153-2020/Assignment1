@@ -1,0 +1,9 @@
+#This script creates an index from the reference genome and runs sequence alignment with the sample reads using bowtie2
+#!/bin/bash
+cp -R /localdisk/data/BPSM/Assignment1/Tbb_genome . #This line copies the reference genome into your current directory 
+cd Tbb_genome #go into subdirectory that contains the reference genome
+gunzip Tb927_genome.fasta.gz #unzip reference file as it needs to be in unzipped FASTA format 
+bowtie2-build -f Tb927_genome.fasta Tbb_index_file #create index of reference genome
+cd .. 
+
+
