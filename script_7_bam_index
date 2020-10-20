@@ -1,0 +1,8 @@
+#!/bin/bash 
+#This script is to index the BAM files using samtools, which we need to do before we can use bedtools 
+for i in sorted_bam*.bam
+do
+   samtools index $i
+done
+#This creates .bam.bai files which are index files to accompany the BAM files
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+#Need to sort BAM files before we can use bedtools 
+for i in *.bam
+do 
+   samtools sort -O bam -o sorted_bam$i $i
+done
+
