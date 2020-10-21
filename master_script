@@ -1,0 +1,11 @@
+#!/bin/bash
+#This master script will run all the subscripts in sequence for ease of use 
+bash script_1_fastqc 
+bash script_2_fastqc_output
+bash script_3_bowtie2_index
+bash script_4_bowtie2_setup
+bash script_5_bowtie2_run
+bash script_6_bam_sort
+bash script_7_bam_index
+bash script_8_bedtools
+bash script_9_final_output
