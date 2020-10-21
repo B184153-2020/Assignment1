@@ -1,0 +1,11 @@
+#!/bin/bash
+#This script filters the gene counts file gained from running bedtools to give us the gene names and average counts for Slender and Stumpy samples 
+awk '{print $4, $7, $8, $9, $10, $11, $12}' Tbb_gene_counts.txt > filtered_gene_counts_data.txt #This line filters the original counts table to give us only the gene name from column 4, plus all the counts from each of the 3 Slender and Stumpy replicates and puts them into a new text file as an intermediate stage in getting our final data 
+awk '{printf ("%s\t", $1, $2) 
+      printf ("%.2f\n", ($2 + $3 + $4)/3)
+      printf ("%.2f\n", ($5 + $6 + $7)/3)}' filtered_gene_counts_data.txt > average_gene_counts.txt
+#These last lines of code finalise the data output by adding headers to the new columns, creating a final output file and then displaying the results to the screen in a text editor.
+awk 'BEGIN { FS=":"; print "GENE\t\t\tSLENDER_AVG\t\tSTUMPY_AVG\n";}
+{print $1, "\t\t", $2, "\t\t", $3'} average_gene_counts.txt > FINAL_Tbb_DATA.txt
+nano FINAL_Tbb_DATA.txt 
+
