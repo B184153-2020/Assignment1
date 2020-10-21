@@ -5,4 +5,3 @@ do
    samtools index $i
 done
 #This creates .bam.bai files which are index files to accompany the BAM files
-

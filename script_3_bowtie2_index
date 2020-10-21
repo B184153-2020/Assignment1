@@ -6,4 +6,3 @@ gunzip Tb927_genome.fasta.gz #unzip reference file as it needs to be in unzipped
 bowtie2-build -f Tb927_genome.fasta Tbb_index_file #create index of reference genome
 cd .. 
 
-

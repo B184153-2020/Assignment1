@@ -4,3 +4,4 @@ cp -R /localdisk/data/BPSM/Assignment1/fastq . #copy files into current director
 cd fastq
 fastqc *fq.gz   
 cd ..
+

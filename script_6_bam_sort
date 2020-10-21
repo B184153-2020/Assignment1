@@ -4,4 +4,3 @@ for i in *.bam
 do 
    samtools sort -O bam -o sorted_bam$i $i
 done
-

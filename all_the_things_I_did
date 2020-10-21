@@ -1,3 +1,39 @@
+commit 8c29195e107278e99aaed0b448fc010e16ac737f
+Author: B184153-2020 <email_not_provided>
+Date:   Wed Oct 21 16:22:50 2020 +0100
+
+    Committing script_9_final_output which generates text output file with gene count averages
+
+commit 0149793b3c44fbdc670cce4643f3963dafa81e40
+Author: B184153-2020 <email_not_provided>
+Date:   Wed Oct 21 10:18:14 2020 +0100
+
+    Adding script_8_bedtools which creates alignment counts data for sample reads in a text file
+
+commit 73f714a2252a30fc91995fd20e42a7eef9f81184
+Author: B184153-2020 <email_not_provided>
+Date:   Tue Oct 20 21:05:21 2020 +0100
+
+    Committing new scripts 6 and 7 which sort and index BAM files ready for bedtools; plus committing modified earlier scripts
+
+commit 41b992a56ad1914a9625fa96525a58a38ce41972
+Author: B184153-2020 <email_not_provided>
+Date:   Tue Oct 20 16:25:53 2020 +0100
+
+    Adding script_5_bowtie2_run which runs alignment and pipes output into SAM-BAM conversion
+
+commit 23969cbd9998c3861c9dbf6385d72e0cab46e0cd
+Author: B184153-2020 <email_not_provided>
+Date:   Tue Oct 20 15:00:19 2020 +0100
+
+    Committing bowtie2 scripts for indexing and setup
+
+commit a6f34ac1a61d652fff708485d21d34d900ed9c18
+Author: B184153-2020 <email_not_provided>
+Date:   Tue Oct 20 08:15:14 2020 +0100
+
+    Updated all_the_things_I_did and edited script_2_fastqc_output to change directory at end of script action
+
 commit a51e55199551906282dfcaed66164727e9f35a18
 Author: B184153-2020 <email_not_provided>
 Date:   Mon Oct 19 16:59:35 2020 +0100
