@@ -1,0 +1,5 @@
+#This script runs bedtools with the sorted and indexed BAM files you have created, which will generate counts data for the Tbb genes suitable for analysis
+#!/bin/bash
+cp /localdisk/data/BPSM/Assignment1/Tbbgenes.bed . #This line copies the bedfile we need into our working directory
+bedtools multicov -bams sorted_bam*.bam -bed Tbbgenes.bed > Tbb_gene_counts.txt #This line runs the bedtools multicov tool on all our sorted BAM files which will give us our gene counts
+
